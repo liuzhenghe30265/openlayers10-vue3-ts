@@ -12,14 +12,26 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@turf/turf": "^7.1.0",
+    "axios": "^1.7.4",
+    "element-plus": "^2.8.0",
+    "file-saver": "^2.0.5",
+    "js-cookie": "^3.0.5",
+    "ol": "^10.1.0",
     "pinia": "^2.1.7",
+    "qs": "^6.13.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
+    "@types/file-saver": "^2.0.7",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^18.15.11",
+    "@types/ol": "^7.0.0",
+    "@types/qs": "^6.9.15",
     "@types/vue-router": "^2.0.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "@vitejs/plugin-vue-jsx": "^4.0.0",
@@ -28,6 +40,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-vue": "^9.10.0",
     "npm-run-all2": "^6.2.0",
+    "sass": "^1.77.8",
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
     "vue-tsc": "^2.0.21"
