@@ -1,39 +1,23 @@
-# openlayers9-vue3-demo
+# openlayers10-vue3-ts
 
-This template should help get you started developing with Vue 3 in Vite.
+在 Vue 3 应用程序中使用 Vite 工具链和 OpenLayers10 创建一个简单的地图实例，并实现一些基础的地图交互功能。
 
-## Recommended IDE Setup
+[Demo](https://liuzhenghe30265.github.io/openlayers10-vue3-ts/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 地图初始化
 
-## Type Support for `.vue` Imports in TS
+![](1.png)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 底图加载与切换
 
-## Customize configuration
+## GeoJSON 数据的加载与导出
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 绘制功能
 
-## Project Setup
+![](2.png)
 
-```sh
-npm install
-```
+## 轨迹回放功能
 
-### Compile and Hot-Reload for Development
+![](3.png)
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+使用 VectorLayer postrender 实现丝滑的轨迹运动效果。
